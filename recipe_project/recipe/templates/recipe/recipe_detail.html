@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>{{ recipe.title }}</title>
+</head>
+<body>
+    <h1>{{ recipe.title }}</h1>
+    <p>{{ recipe.description }}</p>
+    <p>{{ recipe.ingredients }}</p>
+    <p>{{ recipe.instructions }}</p>
+    <a href="{% url 'main' %}">Back to recipes</a>
+</body>
+</html>
